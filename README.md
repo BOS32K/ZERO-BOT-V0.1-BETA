@@ -1,45 +1,44 @@
-😴😴 Discord BOT .py 😴😴
-1.add 音樂功能
+# Discord BOT 功能
 
-2.add 自訂義成員進出訊息頻道功能
+<font size="5">這個 Discord bot 實現了以下功能：</font>
 
-3.add 進言,踢出,停權等功能
+## 1. 音樂功能
+<font size="4">
+- `!join`: 機器人加入語音頻道
+- `!play <音樂連結>`: 播放指定音樂
+- `!stop`: 停止播放音樂
+- `!leave`: 離開語音頻道
+</font>
 
-4.add 連結攔截器
+## 2. 自訂義成員進出訊息頻道功能
+<font size="4">
+- `!set_welcome <訊息>`: 設置歡迎加入訊息
+- `!set_left <訊息>`: 設置離開訊息
+</font>
 
-5.add 頻道上鎖/解鎖功能
+## 3. 進言, 踢出, 停權等功能
+<font size="4">
+- `!mute <使用者>`: 禁言指定使用者
+- `!unmute <使用者>`: 解除禁言指定使用者
+- `!kick <使用者>`: 踢出指定使用者
+- `!ban <使用者>`: 停權指定使用者
+- `!unban <使用者>`: 解除停權指定使用者
+</font>
 
-6.add 刪除訊息功能
+## 4. 連結攔截器
+<font size="4">
+- `!link`: 禁止發送連結
+- `!unlink`: 解除禁止連結
+</font>
 
+## 5. 頻道上鎖/解鎖功能
+<font size="4">
+- `!lock`: 上鎖頻道
+- `!unlock`: 解鎖頻道
+</font>
 
-CMD:
-
-頻道設置
-!set_welcome 設置歡迎加入訊息
-
-!set_left 設置離開訊息頻道
-
-
-管理
-!link/unlink 禁止連接/解除禁止連結
-
-!mute/unmute 禁言/解除禁言 指定使用者
-
-!ban/unban 停權/解除停權 指定使用者
-
-!kick 踢出指定使用者
-
-!lock/unlock 上鎖頻道
-
-!nuke/autonuke 刪除指定頻道所有訊息/刪除全部頻到的所有訊息
-
-!purge 指定刪除訊息數量
-
-音樂功能
-!join 機器人加入語音
-
-!stop 機器人停止撥放
-
-!play 機器人播放指定音樂
-
-!leave 機器人離開語音
+## 6. 刪除訊息功能
+<font size="4">
+- `!nuke`: 刪除指定頻道的所有訊息
+- `!purge <數量>`: 刪除指定數量的訊息
+</font>
